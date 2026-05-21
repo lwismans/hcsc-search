@@ -19,7 +19,7 @@ Hypercompact Stellar Systems (HCSCs) using Gaia DR3 data.
 - `pyrallaxes.py` — Collection of functions required for the 
   Bayesian distance estimation, adapted from Fraser (2023)
 - `PARSEC_isochrones.dat` — PARSEC isochrone for Z=0.0001, age 
-  12 Gyr, downloaded from http://stev.oapd.inaf.it/cgi-bin/cmd
+  12 Gyr
 
 ## Data Availability
 
