@@ -2,13 +2,13 @@
 
 This repository contains the code and data for a master's thesis 
 project at Radboud University, focused on searching for 
-Hypercompact Stellar Systems (HCSCs) using Gaia DR3 data.
+Hyper Compact Stellar Systems (HCSCs) using Gaia DR3 data.
 
 ## Repository Structure
 
 - `gaia_download.ipynb` — Downloads the Gaia DR3 data for the 
-  b > 30 and b < -30 sky regions with a 30% parallax uncertainty 
-  filter
+  b > 30 and b < -30 sky regions with a 30% relative distance 
+  uncertainty filter
 - `HCSC_search.ipynb` — Main analysis pipeline based on Fraser 
   (2023), extended with the 30% parallax uncertainty filter. 
   Performs Bayesian distance estimation using `pyrallaxes.py` and 
@@ -26,7 +26,7 @@ Hypercompact Stellar Systems (HCSCs) using Gaia DR3 data.
 The raw Gaia DR3 catalogues and the distance-computed catalogues 
 are not included in this repository due to their size (~12 GB together). 
 The raw Gaia data can be re-downloaded using `gaia_download.ipynb`. 
-The distance-computed catalogues required ~200 hours of computation 
+The distance-computed catalogs required ~200 hours of computation 
 per file and can be requested from the author or supervisor.
 
 ## How to Reproduce
