@@ -24,7 +24,7 @@ Hypercompact Stellar Systems (HCSCs) using Gaia DR3 data.
 ## Data Availability
 
 The raw Gaia DR3 catalogues and the distance-computed catalogues 
-are not included in this repository due to their size (~12 GB). 
+are not included in this repository due to their size (~12 GB together). 
 The raw Gaia data can be re-downloaded using `gaia_download.ipynb`. 
 The distance-computed catalogues required ~200 hours of computation 
 per file and can be requested from the author or supervisor.
