@@ -2,7 +2,7 @@
 
 This repository contains the code and data for a master's thesis 
 project at Radboud University, focused on searching for 
-Hypercompact Stellar Systems (HCSSs) using Gaia DR3 data.
+Hypercompact Stellar Systems (HCSCs) using Gaia DR3 data.
 
 ## Repository Structure
 
