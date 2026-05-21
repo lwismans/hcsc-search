@@ -16,15 +16,15 @@ Hypercompact Stellar Systems (HCSSs) using Gaia DR3 data.
 - `HCSC_pipeline.ipynb` — SIMBAD cross-matching, histogram of 
   SIMBAD object types, candidate table, PanSTARRS and SkyMapper 
   visual inspection, and DS9 region file generation
-- `pyrallaxes.py` — Bayesian distance estimation code, adapted 
-  from Fraser (2023)
+- `pyrallaxes.py` — Collection of functions required for the 
+  Bayesian distance estimation, adapted from Fraser (2023)
 - `PARSEC_isochrones.dat` — PARSEC isochrone for Z=0.0001, age 
   12 Gyr, downloaded from http://stev.oapd.inaf.it/cgi-bin/cmd
 
 ## Data Availability
 
 The raw Gaia DR3 catalogues and the distance-computed catalogues 
-are not included in this repository due to their size (~23 GB). 
+are not included in this repository due to their size (~12 GB). 
 The raw Gaia data can be re-downloaded using `gaia_download.ipynb`. 
 The distance-computed catalogues required ~200 hours of computation 
 per file and can be requested from the author or supervisor.
